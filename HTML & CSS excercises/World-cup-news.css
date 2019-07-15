@@ -1,0 +1,31 @@
+#wrapper {
+	background-color: #a6e1ec;
+	width: 700px;
+	height: 730px;
+	padding: 10px;
+	border: 1px solid black;    /*kak da izravna rastoqnieto ot lqvo i dqsno*/
+	position: relative;
+}
+
+
+#italic {
+	font-style: italic;
+}
+#dest{
+	border: 1px solid black;
+	color: #2EA620;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+img {
+	margin-right: 10px;
+	vertical-align: middle;    /* pozicionira teksta v elementa, v sluchaq po verticala na sredata*/
+}
+
+#div-dest{
+	display: block;
+	margin: auto;
+	position: absolute;
+	width: 650px;
+}

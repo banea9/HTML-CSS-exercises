@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	background: url('images/dark-wood.jpg');
+	color: #4D494E;
+}
+
+header{
+    background: url("images/header-page.jpg") no-repeat;
+    height: 130px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+header h1 {
+	font-size: 40px;
+	text-align: right;
+	font-weight: bold;
+	color: #000000;
+	padding: 40px 10px 0 0;
+
+}
+nav {
+    width: 940px;
+    height: 30px;
+    margin: 2px auto;
+    background: url("images/header-page.jpg") no-repeat;
+}
+nav ul li {
+	display: inline-block;
+	padding: 5px 25px;
+}
+nav ul li a {
+	color: white;
+	text-transform: lowercase;
+	text-decoration: none;
+	font-family: Times New Roman, sans-serif;
+}
+nav ul li:first-of-type a{
+	color: black;
+}
+nav ul li a:hover {
+	color: #000;
+}
+main {
+	width: 940px;
+	background-color: white;
+	margin: auto;
+	height: 610px;
+}
+.courses {
+	width: 70%;
+	display: inline-block;
+	border-right: 1px solid #DDDDDD;
+}
+
+figure {
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    float: left;
+    margin: 30px 20px 20px 15px;
+
+}
+
+figcaption {
+    color: #84818B;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+article div {
+	display: inline-block;
+}
+article div h2{
+	font-weight: bold;
+	font-size: 2.2em;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+article div h3{
+	color: #E8CE85;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+article p {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #92979C;
+}
+article:after {
+	clear: both;
+	display: block;    /* da se pozicioniraju dva elementa jedn ispod drug ka su inline-block!!!*/
+	content: '';
+}
+aside {
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 40px;
+    color: #D9527A;
+}
+aside section ul {
+	list-style: none;
+}
+aside a {
+    color: #D9527A;
+    text-decoration: none;
+    font-size: 1.4em;
+    display: block;
+    padding: 11px 7px;
+}
+
+aside h2 {
+    font-weight: bold;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+aside ul {
+    padding: 10px;
+}
+
+aside li {
+    border-bottom: 1px solid #DDD;
+}
+aside ul li a:hover {
+	color: #000;
+}
+footer {
+    background-color: #AEACA8;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    height: 100%;
+}

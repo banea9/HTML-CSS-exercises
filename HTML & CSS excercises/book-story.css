@@ -1,0 +1,19 @@
+.book-story{
+	background-color: #dddddd;
+	width: 400px;
+	border: 1px solid black;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+p {
+	font-size: 18px;
+}
+
+h1{
+	text-align: center;
+}
+
+#jurnal {
+	font-style: italic;
+}
