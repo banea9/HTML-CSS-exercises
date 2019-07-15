@@ -1,0 +1,13 @@
+/*The font in the entire page is OpenSans-ExtraBold / Helvetica / sans-serif (size: 56px for the main
+heading, 16px for the texts).
+ Column width: 220px with all margins + paddings.
+ There are 4 articles
+ Pixel-perfect implementation is not required. */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 150px;
+}

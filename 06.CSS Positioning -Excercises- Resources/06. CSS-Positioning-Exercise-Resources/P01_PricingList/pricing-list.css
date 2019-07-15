@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1000px;
+	font-family: 'Vollkorn',serif;
+	font-size: 16px;
+	margin: 0 auto;
+	background-color: white;
+	color: #778495;
+
+}
+header {
+	height: 60px;
+	padding: 15px 0;
+}
+header h1{
+	line-height: 60px;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+main {
+	width: 100%;
+	margin: 0px auto;
+}
+article {
+	background-color: white;
+	width: 315px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	border: 1px solid #ebeff2;
+	height: 600px;
+	position: relative;
+}
+article h2 {
+	font-size: 30px;
+	height: 120px;
+	width: 100%;
+	text-transform: capitalize;
+	line-height: 120px;
+	font-weight: normal;
+	text-align: center;
+	background-color: #ebeff2;
+}
+article p {
+	font-size: 60px;
+	text-align: center;
+
+}
+
+article button{
+	position: absolute;
+	top: 500px;
+	height: 60px;
+	width: 80%;
+	margin-left:31px;
+	background-color: #dddddd;
+	text-transform: capitalize;
+	color: #fff;
+	border-radius: 15px;
+	border: none;
+	font-size: 18px;
+
+}
+article:last-child {
+	margin: 0;
+}
+article ul {
+	list-style: none;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+article ul li {
+	padding: 10px 5px;
+	font-family: 'Tahoma', sans-serif;
+	font-size: 16px;
+}
+article {
+	cursor: pointer;
+}
+article:hover > p{
+	color: #65d3e2;
+}
+article:hover > h2 {
+	background-color: #65d3e2;
+}
+article:hover > button {
+	background-color: #65d3e2;
+}
