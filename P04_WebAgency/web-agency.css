@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: rgb(51, 51, 51);
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: rgb(36, 67, 124);
+}
+nav img {
+    width:100px;
+    height: 15px;
+    margin-top:25px;
+    margin-left:40px;
+}
+nav ul {
+    float:right;
+    margin-top:25px;
+    margin-right: 40px;
+}
+nav ul li {
+    display: inline-block;
+    margin-right:20px;
+}
+nav ul li:last-of-type {
+    padding:10px 15px;
+    background:rgb(67, 197, 246);
+    border-radius: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+h1 {
+    text-transform: capitalize;
+    font-size: 46px;
+    text-align: center;
+    margin-top: 240px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+h2.header-subtitle {
+    text-transform: capitalize;
+    font-size: 26px;
+    text-align: center;
+    margin: 35px 0;
+    color: rgb(55, 91, 143);
+    font-weight: normal;
+}
+#button-container {
+    width:120px;
+    height:35px;
+    text-align:center;
+    line-height: 35px;
+    background: rgb(67, 197, 246);
+    border-radius: 10px;
+    margin:0 auto;
+    font-weight: normal;
+
+}
+#button-container a{
+    color:rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+ul.header-services {
+    width:52%;
+    margin: 130px auto;
+}
+ul.header-services li.service { 
+    display: inline-block;
+    width:33%;
+    padding: 45px 35px 15px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+ul.header-services li.service h2 {
+    font-size: 22px;
+    width:65%;
+    margin-left:50px;
+    margin-bottom: 40px;
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+}
+ul.header-services li.service p {
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+}
+.service-link {
+    display: block;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin-top: 20px;
+}
+li.service:hover {
+    background-color: rgb(67, 197, 246);
+    cursor: pointer;
+}

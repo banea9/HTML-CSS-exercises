@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+header {
+	margin: 0 auto;
+	width: 100%;
+	height: 700px;
+    background: url('images/Layer-759_02.jpg') no-repeat left top;
+    background-size: cover;
+
+}
+header nav {
+	padding: 30px;
+	width: 68%;
+	margin: auto;
+}
+header nav ul {
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: rgba(186, 146, 94,0.9);
+    height: 60px;
+}
+header nav ul li {
+    line-height: 60px;
+    color:rgb(255, 255, 255);
+    font-size:14px;
+    font-weight: bold;
+}
+
+header h1 {
+    margin-top:70px;
+    font-size:56px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+header p {
+    margin:40px auto 20px;
+    width:20%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+header button {
+    border-radius: 5px;
+    display: block;
+    border: none;
+    margin:10px auto;
+    padding:9px;
+    color:rgb(255, 255, 255);
+    background: rgb(8, 8, 32);
+}
+header button i {
+    color:rgb(202, 163, 140);
+}
+main #industry {
+    margin:30px;
+    font-size: 40px;
+    text-align: center;
+}
+main section.financial-energy-surface, main section.travel-business-customer {
+    width:67%;
+    margin: 40px auto;
+}
+
+main section h2 {
+    font-size:14px;
+    margin-bottom:15px;
+    font-weight: 800;
+}
+main section div.icon {
+    margin-left:30px;
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    line-height: 61px;
+    background:rgb(0, 0, 0);
+    border-radius: 50%;
+    color:rgb(255, 255, 255);
+    vertical-align: top;
+    margin-right: 10px;
+    text-align: center;
+}
+main section div.icon i {
+    font-size:30px;
+}
+main section article {
+    margin-right:10px;
+    display: inline-block;
+    width:23%;
+    vertical-align: top;
+}
+main section article p {
+    font-size: 12px;
+}
+main section.banner {
+    margin: 0;
+    width:100%;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+
+}
+.banner:after {
+	content: "";
+	background-size: cover;
+	
+	background: url('images/steel-bg.jpg') center center; 
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	z-index: -1;
+}
+main section.banner p {
+    padding-top:30px;    
+    width:30%;
+    margin:auto;
+    text-align: center;
+    font-size:20px;
+    color: rgb(226, 147, 118);
+    font-weight: 800;
+}
+main section.banner span {
+    color: rgb(0, 0, 0);
+    display: block;
+}
+main section.traders {
+    height:300px;
+    width:100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)),  url('images/background-choose-us.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+main section.traders h2 {
+    padding-top:50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size:26px;
+
+}
+main section.traders article {
+    width:15%;
+    height: 100px;
+    margin:15px;
+    border: 2px solid rgb(226, 147, 118);
+    padding:20px 15px;
+}
+main section article h4 {
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    margin-bottom:15px;
+}
+main section.traders article p {
+    text-align: left;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+main section.consulting-woman {
+    background: url('images/consulting-woman.jpg') no-repeat center center;
+    background-size: cover;
+    height:550px;
+    width:100%;
+    position: relative;
+}
+main section.consulting-woman div.white{
+    height:500px;
+    width:600px;
+    position: absolute;
+    bottom:0;
+    right:50px;
+    background-color: rgba(255, 255, 255, 0.9);
+   
+}
+main section.consulting-woman div.white p {
+    width: 70%;
+    margin: 60px auto;
+    line-height: 25px;
+    font-size:13px;
+}
+main section.consulting-woman div.white p:first-of-type::before, main section.consulting-woman div.white p:first-of-type::after{
+    content:'"';
+    color:rgb(226, 147, 118);
+    font-size: 22px;
+}
+
+
+main section.consulting-woman div.blue {
+    width: 70%;
+    height:250px;
+    margin:65px auto;
+    background: rgb(8, 8, 32);
+}
+main section.consulting-woman div.blue p:first-of-type {
+    color: rgb(95, 95, 106);
+    text-align:right;
+    padding-top:15px;
+    margin-right: 15px;
+    font-size: 14px;
+}
+main section.partners {
+    height:140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+main section.partners img {
+    margin-top:40px;
+    margin-right: 10px;
+    width:120px;
+    height:80px;
+}
+footer {
+    box-sizing: border-box;
+    padding: 30px;
+    height:400px;
+    background: rgb(8, 8, 32);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer div {
+    width:25%;
+}
+footer div h3 {
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li {
+    color:rgb(255, 255, 255);
+}
+footer div.info-socials-container ul {
+    margin-left:25px;
+}
+footer div.info-socials-container ul li {
+    width:60%;
+    font-size: 18px;
+    padding:10px;   
+}
+footer ul.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+footer ul.socials li i {
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(125, 124, 140);
+    font-size:22px;
+    line-height: 45px;
+    text-align: center;
+    color:rgb(8, 8, 32);
+}
+footer div.extra-links ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:280px;
+}
+footer div.extra-links li {
+    font-size:18px;
+    padding:10px 15px;
+    color:rgb(226, 147, 118);
+}
+footer div.instagram-widget img {
+    width:120px;
+    height:120px;
+}
