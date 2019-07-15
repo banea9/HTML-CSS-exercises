@@ -1,0 +1,22 @@
+table {
+	border: 1px solid black;
+	font-size: 16px;
+}
+th {
+	border: 1px solid black;
+}
+.bold {
+	font-weight: bold;
+	text-align: center;
+	
+}
+table tbody tr td {
+	border: 1px solid black;
+	padding-left: 5px;
+}
+
+.result {
+	padding-right: 5px;
+	text-align: right;
+	width: 400px;
+}

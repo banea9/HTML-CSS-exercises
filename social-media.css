@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #b4b498;
+
+}
+footer {
+	height: 150px;
+	width: 100%;
+	background-color: #292929;
+	
+
+}
+section {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+footer section h3 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding-bottom: 15px;
+}
+footer section ul {
+	list-style: none;
+
+}
+footer section li {
+	text-transform: capitalize;
+	font-size: 20px;
+
+}
+footer section div div {
+	background: url('images/social.jpg');
+	display: inline-block;
+	width: 72px;
+	height: 60px;
+	cursor: pointer;
+}
+.linkedin {
+	background-position: 642px 126px;
+	cursor: pointer;
+}
+.youtube {
+	background-position: 325px 126px;
+	cursor: pointer;
+}
+.twitter {
+	background-position: 772px 126px;
+	cursor: pointer;
+}
+.linkedin:hover {
+	background-position: 642px 63px;
+	cursor: pointer;
+}
+.youtube:hover {
+	background-position: 325px 63px;
+	cursor: pointer;
+}
+.twitter:hover {
+	background-position: -66px 63px;
+	cursor: pointer;
+}
+.facebook:hover{
+	background-position: 0 60px;
+	cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.orange {
+	color: orange;
+}
+.apple{
+	color:  red;
+}
+
+.small {
+	font-size: 10px
+}
+.apple.orange {
+	font-style: italic;
+}
