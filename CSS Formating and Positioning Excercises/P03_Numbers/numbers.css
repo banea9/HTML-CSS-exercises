@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 12px;
+}
+#wrapper {
+    width:800px;
+    margin:100px auto;
+}
+header {
+    background: rgb(221, 221, 221);
+    height: 60px;
+    line-height:60px;
+    border-radius: 20px;
+
+}
+header h1 {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(149, 117, 218);
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+main article {
+    width:23%;
+    border-radius: 15px;
+    margin-top: 15px;
+    background: rgb(238, 238, 238);
+}
+main article div {
+    width:90%;
+    height:165px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background: rgb(148, 112, 220);
+    text-align:center;
+    line-height: 165px;
+    font-size:26px;
+    color:rgb(255, 255, 255);
+}
+main article div:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(148, 112, 220);
+    cursor: pointer;
+
+}
+main article p {
+    text-align:center;
+    margin:10px 0;
+    color:rgb(170, 170, 170);
+}
+button {
+    width: 90%;
+    display: block;
+    margin:0px auto;
+    font-size:14px;
+    background: rgb(221, 221, 221);
+    height:35px;
+    margin-bottom:10px;
+    text-transform: capitalize;
+    border-radius: 7px;
+    border:none;
+    color:rgb(139, 140, 145);
+}
+button:hover {
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}

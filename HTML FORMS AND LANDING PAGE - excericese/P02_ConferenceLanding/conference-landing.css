@@ -1,0 +1,308 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    /* background-color:rgb(255, 255, 255);
+    background-color: rgb(60, 63, 73); */    
+    /* color:rgb(51, 51, 51);
+    color:rgb(60, 63, 73);
+    color:rgb(250, 105, 46); */
+}
+header {
+    background: linear-gradient(rgba(83, 92, 119,0.8),rgba(83, 92, 119,0.8)), url('img/header-bg.png') no-repeat center;
+    background-size: cover;
+    height: 700px;
+    width:100%;
+    color:rgb(255, 255, 255);
+    padding-top:20px;
+    position: relative;
+}
+header p#logo {
+    padding-left:20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    float:left;
+    font-size:12px;
+}
+header nav {
+    float: right;
+    padding-right: 40px;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline-block;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-left:30px;
+}
+header nav ul li:hover {
+    cursor: pointer;
+    color:rgb(250, 105, 46);
+}
+header div#primary-paragraph {
+    width:30%;
+    margin:250px auto;
+
+}
+header div#primary-paragraph p {
+    font-size: 24px;
+    font-weight: normal;
+    width:80%;
+    display: inline-block;
+}
+header div#primary-paragraph i {
+    font-size: 50px;
+    display: inline-block;
+    float:right;
+}
+header section {
+    position: absolute;
+    bottom:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header section div {
+    width:20%;
+    box-sizing: border-box;
+    padding-right:70px;
+    height: 250px;
+    border-bottom: 10px solid transparent;
+}
+header section div:hover {
+    cursor: pointer;
+    border-bottom-color: rgb(250, 105, 46);
+}
+header section div:first-of-type {
+    margin-left:45px;
+}
+header section div p {
+    margin-top: 80px;
+    font-size: 15px;
+}
+main {
+    position: relative;
+}
+main section#quote-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    height: 500px;
+    border-bottom:1px solid rgb(151, 151, 151);
+    margin-bottom:15px;
+}
+main section#quote-section div{
+    width:25%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+main section#quote-section div#quote {
+    text-align:right;    
+}
+main section#quote-section div#quote p.quote{
+    font-size: 18px;
+    font-weight: bold;
+    width:50%;
+    float:right
+
+}
+main section#quote-section div#code-create {
+    font-size:16px;
+}
+main section#quote-section div#code-create p:first-of-type {
+    padding-bottom:30px;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+main section#quote-section div#code-create p:last-of-type {
+    padding-top:30px;
+}
+main div#orange {
+    height: 470px;
+    width:400px;
+    background: rgb(250, 105, 46);
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top:10px;
+}
+main section#schedule {
+    background: rgb(60, 62, 74);
+    color:rgb(255, 255, 255);
+    height: 500px;
+}
+main section#schedule h3 {
+    padding-top:35px;
+    margin-left:100px;
+    font-size: 16px;
+    width:20%;
+}
+main section#schedule ul {
+    width: 60%;
+    margin:60px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:300px;
+}
+main section#schedule ul li {
+    text-transform: capitalize;
+    padding: 30px 30px;
+}
+main section#schedule ul li span{
+    font-weight: bold;
+}
+main section#schedule ul li i {
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: rgb(250, 105, 46);
+    text-align: center;
+    margin-right: 30px;
+    font-size: 16px;
+}
+main section#schedule ul li span {
+    margin-right:30px;
+}
+main section#speakers {
+    height: auto;
+}
+main section#speakers div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:70%;
+    margin:30px auto;
+    color: rgb(51, 51, 51);
+}
+main section#speakers div p#codemash{
+    width:25%;
+    font-size: 20px;
+    font-weight: bold;
+}
+main section#speakers div p#info-codemash{
+    width:45%;
+}
+main section#speakers ul {
+    width: 60%;
+    margin:50px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+main section#speakers ul li {
+    box-shadow: 5px 5px 9px 0px rgba(147,147,147,1);
+    margin: 20px 30px;
+}
+main section#speakers ul li img {
+    width:220px;
+    height: 220px;
+}
+main section#speakers ul li p {
+    padding:25px 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+main section#speakers ul li i {
+    color:rgb(0, 0, 0);
+}
+main section#speakers ul li i:hover {
+    color: rgb(250, 105, 46);
+    cursor: pointer;
+}
+
+main section#speakers ul li h6 {
+    padding-left:15px;
+    padding-bottom: 10px;
+    color:rgb(252, 173, 145);
+    text-transform: uppercase;
+    font-size:14px;
+}
+main section#form{
+    height: auto;
+    background: rgb(60, 63, 73);
+    padding:50px 320px;
+}
+main section#form form#form-text {
+    width:100%;
+    height:auto;
+    padding:30px 15px;
+    text-align:center;
+    border:1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+}
+main section#form form h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding:55px;
+    
+}
+main section#form form p {
+    width:40%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+main section#form div#button{
+    display:flex;
+    flex-direction: row;
+    width:40%;
+    justify-content: space-evenly;
+    margin:0 auto;
+}
+main section#form div#button input {
+    background: transparent;
+    border:none;
+    border-bottom:5px solid rgb(250, 105, 46);
+}
+main section#form div#button input::placeholder {
+    color:white;
+    font-size: 16px;
+}
+main section#form div#button button {
+    padding:7px 20px;
+    border-radius: 25px;
+    border:none;
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    background: rgb(250, 105, 46);
+}
+main section#form div#button button:hover {
+    background: rgb(51, 51, 51);
+    cursor: pointer;
+}
+footer{
+    background: rgb(40, 42, 48);
+    height: 100px;
+    display: flex;
+    padding:30px 10px;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer p:first-of-type {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top:10px;
+}
+footer p:last-of-type {
+    color: rgb(107, 109, 113);
+    text-transform: uppercase;
+    font-size: 16px;
+    width:300px;
+}

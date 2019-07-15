@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans','Helvetica',sans-serif;
+    color:rgb(153, 156, 157);
+    background: rgb(240, 240, 232);
+}
+header h1 {
+    font-weight: 800;
+    font-size: 56px;
+    color:rgb(0, 146, 136);
+    text-align: center;
+    margin:40px 0;
+}
+header p {
+    margin:10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    color:rgb(153, 156, 157);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main article {
+    border-left: 10px solid transparent;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-align:center;
+    width:220px;
+    padding:20px;
+    margin: 15px;
+}
+main article:hover {
+    background: rgb(246, 246, 245);
+    cursor: pointer;
+    border-left: 10px solid rgb(0, 146, 136);
+
+}
+main article img {
+    margin:10px;
+}
+main article h4 {
+    margin:5px;
+    font-size:14px;
+}
+main article p {
+    margin:10px;
+}
