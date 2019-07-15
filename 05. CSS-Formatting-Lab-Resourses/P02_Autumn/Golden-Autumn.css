@@ -1,0 +1,117 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: rgb(188, 108, 9);
+}
+body nav {
+	float: right;
+}
+body nav ul {
+	
+	margin-top: 20px;
+	margin-right: 10px;
+	list-style: none;
+}
+body nav ul li {
+	display: inline-block;
+	padding: 30px 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: rgb(224, 192, 29);
+	margin-left: 15px;
+	border-radius: 5px;
+	border: 3px double rgb(224, 192, 29);
+}
+body header {
+	margin-top: 45px;
+}
+h1{
+	margin-top: 10px;
+	margin-left: 10px;	
+	display: inline;     /* VAZNO!!! SLAGAME INLINE NA H1 PONEJE ISKAME DA KUTIIKATA SVYRSHVA SYS KONTENTA*/
+	padding: 5px;
+	color: rgb(2, 211, 238);
+	border: 2px double rgb(2, 211, 238);
+	font-style: italic;
+	
+
+}
+main {
+	width: 99%;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	background-color: rgb(224, 192, 29);
+	border-radius: 10px;
+}
+
+main article {
+	padding: 20px 20px 60px 20px;
+
+}
+main article div {
+	padding: 10px 20px 10px 10px;
+	border: 1px double greenyellow;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+main article div:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+main article div p {
+	color: #000;
+	text-align: justify;
+	font-size: 18px;
+	
+}
+main article div figure {
+	width: 350px;
+	height: 220px;
+	float: right;
+	margin-left: 10px;
+	border: 3px solid #142830;
+}
+main article div figure img {
+	width: 100%;
+	height: 100%;
+
+}
+main article div button {
+	width: 100px;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 475px;
+	background-color: rgb(168, 135, 52);
+	border: 2px dotted grey;
+	color: rgb(224, 192, 29);
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #fff;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+}
+li:hover {
+	background-color: #fff;
+	color: red;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+}
+footer {
+	margin: 10px;
+	text-align: center;
+	border: 2px dotted greenyellow;
+	text-transform: uppercase;
+	border-radius: 10px;
+	color: yellow;
+}

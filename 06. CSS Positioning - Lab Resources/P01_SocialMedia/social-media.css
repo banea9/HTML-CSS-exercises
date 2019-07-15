@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #b4b498;
+
+}
+footer {
+	height: 150px;
+	width: 100%;
+	background-color: #292929;
+	margin: 0 auto;
+}
+section {
+	
+	display: inline-block;
+	vertical-align: top;
+}
+footer section h3 {
+	color: #fff;
+}
+footer section ul {
+	list-style: none;
+}

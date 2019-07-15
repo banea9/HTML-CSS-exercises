@@ -1,0 +1,43 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Calibri Light', 'Verdana', sans-serif;
+	font-size: 15px;
+	color: #333;
+}
+main {
+	border: 2px solid #a5b2b3;
+	width: 890px;
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 10px 0 5px;
+}
+main article {
+	vertical-align: top;
+	width: 206px;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+main article h3 {
+	text-align: center;
+	margin: 15px;
+	font-size: 20px;
+	font-weight: 900;
+}
+main article img {
+	width: 100%;
+	margin-bottom: 15px;
+}
+main article img:hover { 
+	opacity: 0.4;
+	cursor: pointer;
+}
+main article p {
+	text-align: left;
+	font-size: 16px;
+	font-family: 'Calibri Light';
+}

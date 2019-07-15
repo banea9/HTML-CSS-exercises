@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	width: 450px;
+	font-size: 18px;
+}
+main {
+	width: 100%;
+	background-color: white;
+	text-align: justify;
+	padding: 10px;
+}
+main div{
+	background-color: #64a9ed;
+	width: 180px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 10px;
+	text-shadow: 0px 0px 5px white;
+	
+}
+.left{
+	float: left;
+	margin-right: 15px;
+	
+}
+.right{
+	float: right;
+	margin-left: 15px;
+}
+.center{
+	margin: 0 auto;
+}
+p {
+	margin-bottom: 15px;
+}
