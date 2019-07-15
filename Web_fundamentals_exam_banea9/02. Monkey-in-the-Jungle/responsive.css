@@ -1,0 +1,54 @@
+@media screen and (max-width: 480px) {
+    body {
+        background: linear-gradient(180deg, rgba(45, 45, 54, 0.7) 20%, rgb(29, 31, 35) 36%), url(images/bg.jpg) no-repeat fixed center;
+    }
+    .wrapper > header h2:after {
+        width:70%;
+    }
+    .wrapper.style1 .content {
+        padding:1rem 2rem;
+    }
+    .wrapper.style2 {
+        padding:1rem 2rem;
+    }
+    .wrapper.style2 header {
+        padding: 0px;
+    }
+    .wrapper > header p {
+        padding-bottom:1rem;
+        font-size: 0.8rem;
+    }
+    .wrapper.style2 header p {
+        font-size: 0.3rem;
+    }
+    .gallery {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .gallery > * {
+        width:100%;
+    }
+    .spotlight {
+        flex-direction: column;
+    }
+    .spotlight > * {
+        width: 100%;
+    }
+    .spotlight .inner {
+        padding: 1rem 2rem;
+        text-align: center;
+        background: rgb(227, 227, 227);
+    }
+    .spotlight p:last-child {
+        color: rgb(151, 151, 151);
+    }
+    .spotlight.alt > * {
+        background: rgb(29, 31, 35);
+    }
+}
+
+
+/* background: linear-gradient(rgba(83, 92, 119,0.8),rgba(83, 92, 119,0.8)), url('img/header-bg.png') no-repeat center; */
