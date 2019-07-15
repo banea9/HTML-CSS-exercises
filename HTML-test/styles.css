@@ -1,0 +1,182 @@
+@font-face { font-family: 'Helvetica Inserat LT'; src: url('Helvetica Inserat LT.ttf'); } 
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    color:#fff;
+}
+#wrapper {
+    max-width: 1280px;
+    min-width: 800px;
+    margin: 0px auto;
+}
+
+/* header styles */
+
+header {
+    margin:20px 0;
+    background-color:#ccc;
+    height:120px;
+    padding: 0 10px;
+    position: relative;
+}
+nav#main-nav {
+    width:30%;
+    left:0;
+    position: absolute;
+    bottom:0;
+}
+ul {
+    list-style: none;
+}
+i {
+    font-size:12px;
+}
+ul.outside {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ul.outside li.nav-listitems {
+    width: 25%;
+    border-right:1px solid white;
+    background: #666;
+    text-align: center;
+    padding: 5px 0;
+    height:20px;
+}
+ul.outside li.nav-listitems:last-of-type{
+    border:none;
+}
+ul.outside li.nav-listitems:hover {
+    cursor: pointer;
+    background: #000;
+}
+ul.inside {
+    padding:8px 5px;
+    display: none;
+    background: #000;
+    margin-top: 7px;
+}
+ul.inside li.inside-listitems {
+    width:150px;
+    text-align:left;
+    padding:5px;
+}
+ul.inside li.inside-listitems:nth-child(2){
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+div#flags {
+    position: absolute;
+    bottom:0;
+    right:7px;
+}
+.flags-items {
+    width:20px;
+    height:16px;
+}
+.flags-items:hover {
+    opacity: 0.5;
+    cursor:pointer;
+}
+
+/* main styles */
+main {
+    margin:30px 0;
+    height:900px;
+}
+main #logo {
+    width:30px;
+    word-wrap: break-word;
+    font-size:24px;
+    padding:5px;
+    position: fixed;
+    left:0;
+    top:113px;
+    background-color: #910000;
+    font-weight: bold;
+    text-align: center;
+}
+main section {
+    height:900px;
+
+    width:70%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #515151;
+    float:left;
+    border:7px solid #ccc;
+}
+main section h1 {
+    font-size:36px;
+    padding:10px;
+    border-bottom:1px solid black;
+    box-shadow: 0px 1px 0px 0px rgba(122,122,122,1);
+    font-family: 'Helvetica Inserat LT'
+
+}
+main section p { 
+    padding: 10px;
+    text-indent: 40px;
+}
+main aside {
+    height:900px;
+    box-sizing: border-box;
+    padding: 10px;
+    width:30%;
+    background: #515151;
+    float:right;
+    border:7px solid #A3A3A3;
+}
+main div.collapseDivs {
+    border-bottom: 1px solid #515151;
+    padding:10px;
+    background: #000;
+}
+main div.collapseDivs div.head {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+main div.collapseDivs div.head-close {
+    display:none;
+}
+main div.collapseDivs h6 {
+    font-size:14px;
+}
+main div.collapseDivs div.head, main div.collapseDivs div.head-close {
+    cursor: pointer;
+}
+main div.collapseDivs p {
+    padding: 10px 0;
+    display:none;
+}
+/* footer stlyes */
+footer {
+    font-size:17px;
+    color:#787878;
+    padding:0 10px;
+    clear: both;
+    margin:20px 0;
+    height:60px;
+    line-height:60px;
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer nav {
+    width:35%;
+}
+ul#footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ul#footer-nav li.footer-listitem a{
+    color:#787878;
+
+}
+

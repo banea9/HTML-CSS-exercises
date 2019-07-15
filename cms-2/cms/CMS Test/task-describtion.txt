@@ -1,0 +1,16 @@
+﻿Code a simple newsletter markup compatible with web/desktop e-mail clients.
+
+//Requirements:
+
+- images where applicable must be of the smallest size possible but 
+maintaining good overall quality
+
+- you can't use external stylesheet 
+
+- you must not use styles that aren't supported by the majority of e-mail clients
+
+- final result must be as close to the image provided as possible
+
+- proof test your HTML in Google Chrome, Firefox, IE9+
+
+- create the layout as you find best
